@@ -1,9 +1,9 @@
-# 4. Dokumentacja projektu
+# Dokumentacja projektu
 
-## 4.1 Opis problemu i jego znaczenia  
+## Opis problemu i jego znaczenia  
 Celem projektu jest zbudowanie klasyfikatora, który na podstawie zestawu fizykochemicznych cech wina przewidzi, czy dany egzemplarz będzie oceniony jako „dobre” (quality ≥ 6) czy „słabe” (quality < 6). Automatyczna ocena jakości wina może wspierać producentów i kupujących, przyspieszając kontrolę jakości i pomagając w optymalizacji procesów produkcyjnych.
 
-## 4.2 Szczegółowe wyjaśnienie wykorzystanych metod
+## Szczegółowe wyjaśnienie wykorzystanych metod
 
 - **Regresja logistyczna**  
   - Model liniowy, który estymuje prawdopodobieństwo przynależności do jednej z dwóch klas.  
@@ -17,7 +17,7 @@ Celem projektu jest zbudowanie klasyfikatora, który na podstawie zestawu fizyko
   - Zestaw wielu drzew decyzyjnych trenowanych na losowych podzbiorach cech i próbek, których wyniki są agregowane (głosowanie większościowe).  
   - Dzięki losowości i uśrednianiu redukuje overfitting pojedynczego drzewa i poprawia stabilność wyników.
 
-## 4.3 Opis procesu implementacji i przetwarzania danych
+## Opis procesu implementacji i przetwarzania danych
 
 1. **Wczytanie i wstępna eksploracja**  
    - Załadowanie zbioru „Wine Quality Dataset” z Kaggle.  
